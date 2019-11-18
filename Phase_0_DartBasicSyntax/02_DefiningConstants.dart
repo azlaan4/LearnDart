@@ -10,7 +10,7 @@ void main(){
     // WHICH MEANS YOU ARE NOT ALLOWED TO CHANGE THE VALUE
     // founder = "Allama Iqbal";
 
-    print("Founder of Pakistan is $founder");
+    print("\nFounder of Pakistan is $founder");
 
   // THE 'final' VARIABLE WILL ONLY INITIALIZE WHEN IT IS
   // ACCESSED BY A PROGRAM
@@ -22,12 +22,32 @@ void main(){
     // WHICH MEANS YOU ARE NOT ALLOWED TO CHANGE THE VALUE
     // gravitaional_constant = 10;
 
-    print("Gravitational Constant is $gravitaional_constant Gs");
+    print("\nGravitational Constant is $gravitaional_constant Gs");
 
   // THE 'const' VARIABLE WILL INITIALIZE AT THE COMPILATION OF PROGRAM
   // NO MATTER IT IS BEING ACCESSED BY A PROGRAM OR NOT
 
-  // ONE MORE THING IS THAT INSTENCE VARIABLE CAN BE 'final' BUT NOT 'const'
-  // WHICH MEANS IF YOU WANT CONSTANT AT CLASS LEVEL THEN MAKE IT 'static const'
+  // ACCESSING CLASS AND ITS FUNCTION HERE
+  DartClass c= new DartClass();
+  c.display();
 
+}
+
+// ONE MORE THING IS THAT INSTENCE VARIABLE CAN BE 'final' BUT NOT 'const'
+// WHICH MEANS IF YOU WANT CONSTANT AT CLASS LEVEL THEN MAKE IT 'static const'
+class DartClass {
+  final capital = "Islamabad";
+
+  // UNCOMMENT THE LINE BELOW WILL THROWS AN ERROR WHICH MEANS WE CAN NOT CREATE
+  // 'const' CONSTANT LIKE THIS IN A CLASS
+  // const main_cities = 3;
+
+  // WRITE WAY TO DECLEAR 'const' CONSTANT
+  static const  main_cities= 3;
+
+  // A SIMPLE FUNCTO PRINT THOSE INSTENCE VARIABLES WE CREATED ABOVE
+  void display() {
+    print("\nCapital of Pakistan is $capital");
+    print("\nThere are $main_cities of Pakistan");
+  }
 }
