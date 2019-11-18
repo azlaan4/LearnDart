@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main() {
 
   // LIKE EVERY PROGRAMMING LANGUAGE DART ALSO HAVE THESE

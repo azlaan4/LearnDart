@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main() {
   // TYPES OF STRING LITERALS ARE AS FOLLOWS
     // SINGLE QUOTES
