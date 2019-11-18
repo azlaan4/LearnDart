@@ -1,0 +1,33 @@
+void main(){
+
+  // CONSTANT ARE USED WHEN A PROGRAMMER DONT WANT TO
+  // CHANGE A VALUE OF A VARIBLE FOR SOME REASONS
+  // IN DART WE HAVE TWO WAYS TO DEFINE A CONSTANT
+  // NUMBER 1
+    final founder = "Quaid-e-Azam Muhammad Ali Jinnah";
+
+    // BY UNCOMMENT THE LINE BELOW WILL THROW AN ERROR
+    // WHICH MEANS YOU ARE NOT ALLOWED TO CHANGE THE VALUE
+    // founder = "Allama Iqbal";
+
+    print("Founder of Pakistan is $founder");
+
+  // THE 'final' VARIABLE WILL ONLY INITIALIZE WHEN IT IS
+  // ACCESSED BY A PROGRAM
+
+  // NUMBER 2
+    const gravitaional_constant = 6.67;
+
+    // BY UNCOMMENT THE LINE BELOW WILL THROW AN ERROR
+    // WHICH MEANS YOU ARE NOT ALLOWED TO CHANGE THE VALUE
+    // gravitaional_constant = 10;
+
+    print("Gravitational Constant is $gravitaional_constant Gs");
+
+  // THE 'const' VARIABLE WILL INITIALIZE AT THE COMPILATION OF PROGRAM
+  // NO MATTER IT IS BEING ACCESSED BY A PROGRAM OR NOT
+
+  // ONE MORE THING IS THAT INSTENCE VARIABLE CAN BE 'final' BUT NOT 'const'
+  // WHICH MEANS IF YOU WANT CONSTANT AT CLASS LEVEL THEN MAKE IT 'static const'
+
+}
