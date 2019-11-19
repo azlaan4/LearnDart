@@ -1,28 +1,30 @@
 void main(){
 
-  // CONSTANT ARE USED WHEN A PROGRAMMER DONT WANT TO
-  // CHANGE A VALUE OF A VARIBLE FOR SOME REASONS
+  // CONSTANT ARE USED WHEN A PROGRAMMER DONT WANT TO CHANGE A VALUE OF
+  // A VARIBLE FOR SOME REASONS
+
   // IN DART WE HAVE TWO WAYS TO DEFINE A CONSTANT
-  // NUMBER 1
-    final founder = "Quaid-e-Azam Muhammad Ali Jinnah";
 
-    // BY UNCOMMENT THE LINE BELOW WILL THROW AN ERROR
-    // WHICH MEANS YOU ARE NOT ALLOWED TO CHANGE THE VALUE
-    // founder = "Allama Iqbal";
+    // NUMBER 1
+      final founder = "Quaid-e-Azam Muhammad Ali Jinnah";
 
-    print("\nFounder of Pakistan is $founder");
+      // BY UNCOMMENT THE LINE BELOW WILL THROW AN ERROR WHICH MEANS YOU
+      // ARE NOT ALLOWED TO CHANGE THE VALUE
+      // founder = "Allama Iqbal";
 
-  // THE 'final' VARIABLE WILL ONLY INITIALIZE WHEN IT IS
-  // ACCESSED BY A PROGRAM
+      print("\nFounder of Pakistan is $founder");
 
-  // NUMBER 2
-    const gravitaional_constant = 6.67;
+    // THE 'final' VARIABLE WILL ONLY INITIALIZE WHEN IT IS ACCESSED BY
+    // A PROGRAM
 
-    // BY UNCOMMENT THE LINE BELOW WILL THROW AN ERROR
-    // WHICH MEANS YOU ARE NOT ALLOWED TO CHANGE THE VALUE
-    // gravitaional_constant = 10;
+    // NUMBER 2
+      const gravitaional_constant = 6.67;
 
-    print("\nGravitational Constant is $gravitaional_constant Gs");
+      // BY UNCOMMENT THE LINE BELOW WILL THROW AN ERROR WHICH MEANS YOU
+      // ARE NOT ALLOWED TO CHANGE THE VALUE
+      // gravitaional_constant = 10;
+
+      print("\nGravitational Constant is $gravitaional_constant Gs");
 
   // THE 'const' VARIABLE WILL INITIALIZE AT THE COMPILATION OF PROGRAM
   // NO MATTER IT IS BEING ACCESSED BY A PROGRAM OR NOT
@@ -34,7 +36,7 @@ void main(){
 }
 
 // ONE MORE THING IS THAT INSTENCE VARIABLE CAN BE 'final' BUT NOT 'const'
-// WHICH MEANS IF YOU WANT CONSTANT AT CLASS LEVEL THEN MAKE IT 'static const'
+// WHICH MEANS IF YOU WANT 'const' AT CLASS LEVEL THEN MAKE IT 'static const'
 class DartClass {
   final capital = "Islamabad";
 

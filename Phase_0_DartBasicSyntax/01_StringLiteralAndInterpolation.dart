@@ -1,5 +1,7 @@
 void main() {
+
   // TYPES OF STRING LITERALS ARE AS FOLLOWS
+
     // SINGLE QUOTES
       var name = 'Google';
       print("\n Example of single quote: " + name);
@@ -22,19 +24,21 @@ void main() {
       print("\n Handeling a long string: " + longString);
 
   // STRING INTERPOLATION AND ITS APPLICATIONS
+
     // STRING CONCATINATIONS
-    // METHOD 1 (CONCATINATE TWO STRINGS USING DART INTERPOLATION)
-      var s1 = "Hello";
-      var s2 = "World";
-      print("\n" + s1+s2);
 
-    // METHOD 2 (CONCATINATE INTEGER AND STRING USING DART INTERPOLATION)
-      var student = "MD. Azlaan Zubair";
-      var age = 4;
-      print("\n My name is $student, and age is " + age.toString());
+      // METHOD 1 (CONCATINATE TWO STRINGS USING DART INTERPOLATION)
+        var s1 = "Hello";
+        var s2 = "World";
+        print("\n" + s1+s2);
 
-    // METHOD 3 (CONCATINATE LONG NON-STRING PHRASE USING DART INTERPOLATION)
-      var countString = "Count how many character are there in this string.";
-      print("\nThere are ${countString.length.toString()} characters in the above string.");
+      // METHOD 2 (CONCATINATE INTEGER AND STRING USING DART INTERPOLATION)
+        var student = "MD. Azlaan Zubair";
+        var age = 4;
+        print("\n My name is $student, and age is " + age.toString());
+
+      // METHOD 3 (CONCATINATE LONG NON-STRING PHRASE USING DART INTERPOLATION)
+        var countString = "Count how many character are there in this string.";
+        print("\nThere are ${countString.length.toString()} characters in the above string.");
 
 }
