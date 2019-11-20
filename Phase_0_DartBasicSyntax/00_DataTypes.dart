@@ -6,36 +6,44 @@ void main() {
 
   // LIKE EVERY PROGRAMMING LANGUAGE DART ALSO HAVE THESE
   // KNOWN DATATYPES WHICH ARE AS FOLLOWS
+  print(""); // BLANK SPACE
+  print("========================");
+  print("BASIC DATA TYPES IN DART");
+  print("========================");
 
-  //  -  NUMBER
+  //  NUMBERS
 
-  //    --  INT
+  //    INTEGER
+        print(""); // BLANK SPACE
+        print("Number - Integer:");
+        print("=================");
           int age = 21;
           var salary = 35000;
+        print("Age: $age Salary: $salary");
 
-  //    --  DOUBLE (WE TREAT IT AS FLOAT)
+  //    DOUBLE (WE TREAT IT AS FLOAT)
+        print(""); // BLANK SPACE
+        print("Number - Double: (float or exponentials)");
+        print("========================================");
           double percentage = 75.5;
-          var cgpa = 3.5;
+          var cgpa = percentage ~/ 25;
+        print("Percentage: $percentage CGPA: $cgpa");
 
-  //  -  STRING
-        String greet = "Hello World";
+  //  STRING
+        print(""); // BLANK SPACE
+        print("String:");
+        print("=======");
+        String greet = "Welcome";
         var name = "Azlaan";
+        print("$greet $name");
 
-  //  -  BOOLEAN
-        bool isOpen = true;
-        var isClosed = false;
-
-  print("\nStrings:");
-  print("========");
-  print("Name: $name\nGreet: $greet");
-  print("\nNumbers (integer):");
-  print("==================");
-  print("Age: $age\nSalary: $salary");
-  print("\nNumbers (double):");
-  print("=================");
-  print("Percentage: $percentage\nCGPA: $cgpa");
-  print("\nBoolean:");
-  print("========");
-  print("Open: $isOpen\nClose: $isClosed");
+  //  BOOLEAN
+        print(""); // BLANK SPACE
+        print("Boolean:");
+        print("=======");
+        bool yes = true;
+        var no = false;
+        print("I love games: $yes");
+        print("I love Dota: $no");
 
 }

@@ -2,22 +2,32 @@ void main(){
 
   // CONSTANT ARE USED WHEN A PROGRAMMER DONT WANT TO CHANGE A VALUE OF
   // A VARIBLE FOR SOME REASONS
+  print(""); // BLANK SPACE
+  print("=================");
+  print("CONSTANTS IN DART");
+  print("=================");
 
   // IN DART WE HAVE TWO WAYS TO DEFINE A CONSTANT
 
     // NUMBER 1
+      print(""); // BLANK SPACE
+      print("Constant - Final:");
+      print("=================");
       final founder = "Quaid-e-Azam Muhammad Ali Jinnah";
 
       // BY UNCOMMENT THE LINE BELOW WILL THROW AN ERROR WHICH MEANS YOU
       // ARE NOT ALLOWED TO CHANGE THE VALUE
       // founder = "Allama Iqbal";
 
-      print("\nFounder of Pakistan is $founder");
+      print("Founder of Pakistan is $founder");
 
     // THE 'final' VARIABLE WILL ONLY INITIALIZE WHEN IT IS ACCESSED BY
     // A PROGRAM
 
     // NUMBER 2
+      print(""); // BLANK SPACE
+      print("Constant - Const:");
+      print("=================");
       const gravitaional_constant = 6.67;
 
       // BY UNCOMMENT THE LINE BELOW WILL THROW AN ERROR WHICH MEANS YOU
@@ -49,7 +59,14 @@ class DartClass {
 
   // A SIMPLE FUNCTO PRINT THOSE INSTENCE VARIABLES WE CREATED ABOVE
   void display() {
+    print(""); // BLANK SPACE
+    print("Class Constant - Final:");
+    print("=======================");
     print("\nCapital of Pakistan is $capital");
+
+    print(""); // BLANK SPACE
+    print("Class Constant - Static Const:");
+    print("==============================");
     print("\nThere are $main_cities of Pakistan");
   }
 }

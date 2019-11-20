@@ -10,9 +10,19 @@ void main () {
   // DEFAULT FUNCTION WILL RETURN 'null'
 
   // SPECIFYING THE RETURN TYPE IS OPTIONAL BUT RECOMMENDED AS PER CODE CONVENTION
+  print(""); // BLANK SPACE
+  print("============================");
+  print("FUNCTIONS OR METHODS IN DART");
+  print("============================");
 
+  print(""); // BLANK SPACE
+  print("Function That Return Value:");
+  print("===========================");
   findArea(30, 50);
 
+  print(""); // BLANK SPACE
+  print("Function That Doesn't Return Value:");
+  print("===================================");
   print("Parameter of surface is: ${findParameter(30, 50)}");
 
 }

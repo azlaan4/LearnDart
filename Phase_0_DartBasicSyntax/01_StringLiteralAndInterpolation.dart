@@ -1,44 +1,75 @@
 void main() {
 
   // TYPES OF STRING LITERALS ARE AS FOLLOWS
+    print(""); // BLANK SPACE
+    print("=======================");
+    print("STRING LITERALS IN DART");
+    print("=======================");
 
     // SINGLE QUOTES
+      print(""); // BLANK SPACE
+      print("Single Quote:");
+      print("=============");
       var name = 'Google';
-      print("\n Example of single quote: " + name);
+      print(name);
 
     // DOUBLE QUOTES
+      print(""); // BLANK SPACE
+      print("Double Quotes:");
+      print("==============");
       var company = "Microsoft";
-      print("\n Example of double quotes: " + company);
+      print(company);
 
     // TRIPLE QUOTES
+      print(""); // BLANK SPACE
+      print("Triple Quotes: (Method 1)");
+      print("=========================");
       var level = 'It\'s Easy';
-      print("\n Example of triple quotes: " + level);
+      print(level);
 
     // OR
+      print(""); // BLANK SPACE
+      print("Triple Quotes: (Method 2)");
+      print("========================");
       var feeling = "I'm happy";
-      print("\n Another example of triple quotes: " + feeling);
+      print(feeling);
 
     // LONG STRINGS HANDELING
+      print(""); // BLANK SPACE
+      print("Long Strings:");
+      print("=============");
       var longString = "It is very long string, that we are "
                       "end up writiting like this";
-      print("\n Handeling a long string: " + longString);
+      print(longString);
 
-  // STRING INTERPOLATION AND ITS APPLICATIONS
+  // STRING INTERPOLATION AND CONCATINATIONS
+    print(""); // BLANK SPACE
+    print(""); // BLANK SPACE
+    print("===============================================");
+    print("STRING INTERPOLATION AND CONCATINATIONS IN DART");
+    print("===============================================");
 
-    // STRING CONCATINATIONS
+    // METHOD 1 (CONCATINATE TWO STRINGS USING DART INTERPOLATION)
+      print(""); // BLANK SPACE
+      print("Strings Concatination:");
+      print("======================");
+      var s1 = "Hello";
+      var s2 = "World";
+      print(s1+" "+s2);
 
-      // METHOD 1 (CONCATINATE TWO STRINGS USING DART INTERPOLATION)
-        var s1 = "Hello";
-        var s2 = "World";
-        print("\n" + s1+s2);
+    // METHOD 2 (CONCATINATE INTEGER AND STRING USING DART INTERPOLATION)
+      print(""); // BLANK SPACE
+      print("String and Integer Concatination with Interpolation:");
+      print("====================================================");
+      var student = "MD. Azlaan Zubair";
+      var age = 4;
+      print("My name is $student, and age is " + age.toString());
 
-      // METHOD 2 (CONCATINATE INTEGER AND STRING USING DART INTERPOLATION)
-        var student = "MD. Azlaan Zubair";
-        var age = 4;
-        print("\n My name is $student, and age is " + age.toString());
-
-      // METHOD 3 (CONCATINATE LONG NON-STRING PHRASE USING DART INTERPOLATION)
-        var countString = "Count how many character are there in this string.";
-        print("\nThere are ${countString.length.toString()} characters in the above string.");
+    // METHOD 3 (CONCATINATE LONG NON-STRING PHRASE USING DART INTERPOLATION)
+      print(""); // BLANK SPACE
+      print("Long Non-String Interpolation:");
+      print("==============================");
+      var countString = "Count how many character are there in this string.";
+      print("There are ${countString.length.toString()} characters in the above string.");
 
 }

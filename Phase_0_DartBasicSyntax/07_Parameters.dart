@@ -3,33 +3,50 @@ void main () {
 
   // IN THIS FUNCTION ALL PARAMETERS ARE REQUIRED IF ANY OF THE
   // PARAMETER IS SKIPPED THAN DART THROW AN ERROR
-  cities("Karachi", "New York", "Tokyo");
+  print(""); // BLANK SPACE
+  print("=======================");
+  print("PARAMETERS OF FUNCTIONS");
+  print("=======================");
 
   print(""); // BLANK SPACE
+  print("Required Parameters:");
+  print("====================");
+  cities("Karachi", "New York", "Tokyo");
 
   // SINCE WE SKIPPED A PARAMETER IN THIS IT WILL NOT THROW ERROR NOW
   // BECAUSE WE HAVE MARKED A PARAMETER OPTIONAL
-  countries("Pakistan");
 
   print(""); // BLANK SPACE
+  print("Optional Positional Parameters:");
+  print("===============================");
+  countries("Pakistan");
 
   // HERE IS HOW WE SET OR ASSIGN VALUES TO THE NAMED PARAMETERS
   // SEQUENCE OF CALLING OR SETTING VALUES TO THE NAMED PARAMETERS
   // DOESN'T MATTERS
+  print(""); // BLANK SPACE
+  print("Optional Named Parameters:");
+  print("==========================");
   volume(10, height:10, width:5);
 
-  print(""); // BLANK SPACE
-
   // HERE IS HOW WE USE DEFAULT PARAMETER
+  print(""); // BLANK SPACE
+  print("Optional Default Parameters:");
+  print("============================");
+
+  print(""); // BLANK SPACE
+  print("Overriding Value of Parameter:");
   greet(name:"Azlaan Zubair"); // OVERRIDING PARAMETER
-  greet(); // SIMPLE FUNCTION CALL
+
+  print(""); // BLANK SPACE
+  print("Without Overriding Value of Parameter:");
+  greet(); // SIMPLE FUNCTION CALL WITHOUT PROVIDING PARAMETER VALUE
 }
 
 // REQUIRED PARAMETER
 void cities (String city1, String city2, String city3) {
   print("List Cities: $city1, $city2, $city3.");
 }
-
 
 // OPTIONAL POSITIONAL PARAMETER
 
@@ -38,7 +55,6 @@ void cities (String city1, String city2, String city3) {
 void countries(String country1, [String country2, String country3]) {
   print("List Countries: $country1, $country2, $country3.");
 }
-
 
 // OPTIONAL NAMED PARAMETER
 
@@ -49,7 +65,6 @@ void volume(int length, {int width, int height}) {
   int vol = length * width * height;
   print("Volume is: $vol unit(s).");
 }
-
 
 // OPTIONAL DEFAULT PARAMETER
 
