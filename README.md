@@ -16,4 +16,4 @@ If you want to learn dart follow [this tutorial](https://www.youtube.com/playlis
     - [Functions or Methods](https://github.com/azlaan4/LearnDart/blob/master/Phase_0_DartBasicSyntax/06_FunctionsOrMethods.dart)
     - [Parameters of Functions](https://github.com/azlaan4/LearnDart/blob/master/Phase_0_DartBasicSyntax/07_Parameters.dart)
     - [Exception Handeling](https://github.com/azlaan4/LearnDart/blob/master/Phase_0_DartBasicSyntax/08_ExceptionHandling.dart)
-    - [Custom Exception Handeling](https://github.com/azlaan4/LearnDart/blob/master/Phase_0_DartBasicSyntax/08_CustomExceptionHandling.dart)
+    - [Custom Exception Handeling](https://github.com/azlaan4/LearnDart/blob/master/Phase_0_DartBasicSyntax/09_CustomExceptionHandling.dart)
