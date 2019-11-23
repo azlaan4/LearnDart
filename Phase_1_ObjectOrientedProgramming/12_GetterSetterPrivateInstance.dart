@@ -59,14 +59,10 @@ class Student {
 
   // CUSTOM SETTER
   // HERE 'percentage' IS INSTANCE VARIABLE WITH CUSTOM SETTER
-  void set percentage(double marksSecured) {
-    _percent = (marksSecured / 500) * 100;
-  }
+  void set percentage(double marksSecured) => _percent = (marksSecured / 500) * 100;
 
   // CUSTOM GETTER
   // HERE 'percentage' IS INSTANCE VARIABLE WITH CUSTOM GETTER
-  double get percentage {
-    return _percent;
-  }
+  double get percentage => _percent;
 
 }
