@@ -20,3 +20,4 @@ If you want to learn dart follow [this tutorial](https://www.youtube.com/playlis
 2. Phase 1 - [Object Oriented Programming](https://github.com/azlaan4/LearnDart/tree/master/Phase_1_ObjectOrientedProgramming)
     - [Class, Objects & Instances](https://github.com/azlaan4/LearnDart/blob/master/Phase_1_ObjectOrientedProgramming/10_ClassObjectsInstances.dart)
     - [Constructors & Its Types](https://github.com/azlaan4/LearnDart/blob/master/Phase_1_ObjectOrientedProgramming/11_Constructors.dart)
+    - [Getter-Setter & Private Instances](https://github.com/azlaan4/LearnDart/blob/master/Phase_1_ObjectOrientedProgramming/12_GetterSetterPrivateInstance.dart)
